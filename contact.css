@@ -24,3 +24,46 @@ form{
     color: #fff;
 
 }
+
+.input-group{
+  margin-bottom:30px ; 
+  position: relative; 
+}
+
+input,textarea{
+  /* position: relative; */
+  width:100% ;
+  padding:10px;
+  outline: 0cm;
+  border: 1px solid #fff;
+  background:transparent;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+/* label{
+  height: 100%;
+  position: absolute;  
+  left: 0%;
+  top: 0%;
+} */
+  label{
+      height: 100%;
+      position: absolute;
+      left: 0%;
+      top: 0%;
+      padding: 10px;
+      cursor: text;
+  }
+
+  button{
+      padding: 10px 2px;
+      border-radius: 1%;
+      color: #fff;
+      outline: none;
+      cursor: pointer;
+      width: 100%;
+      background: transparent;
+      border: solid #fff;
+  }
