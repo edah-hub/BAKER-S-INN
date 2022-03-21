@@ -12,5 +12,15 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    color: #fff;
+
 }
