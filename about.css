@@ -1,0 +1,11 @@
+.about{
+    background-image: url(images/bakery.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    font-size: medium;
+    color: rgb(243, 230, 51);
+}
