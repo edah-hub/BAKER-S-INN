@@ -3,14 +3,23 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 320vh;
+    height: 450vh;
     position: relative;
     text-align: center;
-    font-size: medium;
+    font-size: 120%;
     color: rgb(243, 230, 51);
+}
+.tittle{
+    color: rgb(8, 51, 116);
+    font-size: 120%;
 }
 .othecontent{
     border-image-width: 20%;
+}
+#emoji{
+   border-radius: 20%;
+   height: 40%; 
+   width: 40%;
 }
 #staff{
     background-image: url(images/cheffs.jpg);
@@ -20,6 +29,34 @@
     height: 90vh;
     position: relative;
     text-align: center;
+    /* padding-bottom: 40, 0%, 20, 50%; */
     font-size: 170%;
     color: rgb(26, 11, 228);
+}
+.market{
+    background-image: url(images/market.png); 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    text-align: center;
+    font-size: 170%;
+    color: rgb(241, 63, 9); 
+}
+.offer{
+    color: rgb(255, 254, 254); 
+    font-size: 170%;
+}
+.policy{
+    font-size: 150%;
+}
+.grid-item{
+    /* height: 10vh; */
+    width: auto;
+    border-radius: 15%;
+    
+}
+.othercontent{
+    font-size: 150%;
 }
