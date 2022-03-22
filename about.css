@@ -3,9 +3,23 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 150vh;
+    height: 320vh;
     position: relative;
     text-align: center;
     font-size: medium;
     color: rgb(243, 230, 51);
+}
+.othecontent{
+    border-image-width: 20%;
+}
+#staff{
+    background-image: url(images/cheffs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    text-align: center;
+    font-size: 170%;
+    color: rgb(26, 11, 228);
 }
