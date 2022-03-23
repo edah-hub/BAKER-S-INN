@@ -3,14 +3,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 450vh;
+    height: 150vh;
     position: relative;
     text-align: center;
     font-size: 120%;
-    color: rgb(243, 230, 51);
+    color: rgba(250, 243, 240, 0.993);
 }
 .tittle{
-    color: rgb(8, 51, 116);
+    color: rgb(226, 232, 241);
     font-size: 120%;
 }
 .othecontent{
@@ -22,7 +22,7 @@
    width: 40%;
 }
 #staff{
-    background-image: url(images/cheffs.jpg);
+    background-image: url(images/staff2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,25 +31,30 @@
     text-align: center;
     /* padding-bottom: 40, 0%, 20, 50%; */
     font-size: 170%;
-    color: rgb(26, 11, 228);
+    color: rgb(239, 238, 245);
 }
 .market{
-    background-image: url(images/market.png); 
+    background-image: url(images/200.jpg); 
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
+    background-position: relative;
+    background-size: 100%;
     height: 80vh;
-    position: relative;
+    position: right 30%;
     text-align: center;
     font-size: 170%;
-    color: rgb(241, 63, 9); 
+    color: rgb(204, 37, 154); 
 }
 .offer{
     color: rgb(255, 254, 254); 
     font-size: 170%;
+    /* background-image: url(images/50.jpg); */
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-color: aqua;
 }
 .policy{
-    font-size: 150%;
+    font-size: 100%;
+    background-color: aqua;
 }
 .grid-item{
     /* height: 10vh; */
@@ -59,4 +64,23 @@
 }
 .othercontent{
     font-size: 150%;
+    background-color: rgb(212, 161, 19);
+}
+.table{
+
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #9b9e9785;
+    padding: 8px;
+}
+.grid-container{
+    /* background-color: aqua; */
+}
+.grid-item{
+    height: 10vh;
+}
+.click-button{
+    background-color: rgb(236, 12, 27);
+    height: 5vh;
+    width: 10vh;
 }
