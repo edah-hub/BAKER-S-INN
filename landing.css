@@ -7,13 +7,19 @@ body{
 }
 .topnav{
     
-    text-align: left;
+    text-align: right;
     padding: 14px 16px;
-    color: bisque;
+    margin-right: 40px;
+    background-color: rgb(187, 179, 179)
     
     
 }
 .topnav a:hover {
     background-color: black;
     color: aqua;
+    }
+    #bg-img{
+text-align: center;
+font-size: 100%;
+
     }
