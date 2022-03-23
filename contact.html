@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <title>BAKER'S INN</title>
 </head>
 <body>
-  <div class="hero">
+  <div class="CONTACT" id="CONTACT">
+    <p>We Value Your Feedback,Reach Out To Us. </p>
  <form action="">
    <div class="input-group">
     <input type="text" id="name" required>
-    <label for="name">Your Name</label>
+    
+    <label for="name"><i class="fa fa-user" aria-hidden="true">Your Name</i></label>
    </div>
    <div class="input-group">
     <input type="number" id="number" required>
@@ -23,12 +28,22 @@
     <label for="email">Email Address</label>
    </div>
    <div class="input-group">
-  <textarea name="message" id="" cols="30" rows="10"></textarea>
-  
+  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+  <label for="message">Your Message</label>
+  <button type="submit">Submit</button>
  </form>
   </div>
     
 
 
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script src="contact.js"></script>
 </body>
 </html>
