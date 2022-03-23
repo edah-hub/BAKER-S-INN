@@ -1,5 +1,19 @@
 body{
-    background-image: url("/assets/bakery2.jpg");
+    background-image: url("bakery.jpeg");
+    /* height: 100vh;
+    width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
 }
+.topnav{
+    
+    text-align: left;
+    padding: 14px 16px;
+    color: bisque;
+    
+    
+}
+.topnav a:hover {
+    background-color: black;
+    color: aqua;
+    }
