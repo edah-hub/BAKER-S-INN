@@ -1,5 +1,5 @@
 #bg-img{
-    background-image: url("/assets/bakery2.jpg");
+    background-image: url("/bak.webp");
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -36,26 +36,143 @@
     background-color: #04AA6D;
     color: white;
   }
-  .topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
+  /* .container {
+    
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
   }
-  
+  .container head{
+    font-weight: 600;
+    
+  } */
+  .clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
 
-  @media screen and (max-width: 600px) {
-    .topnav a, .topnav input[type=text] {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+.wrapper
+    {
+    width: 100%;
+    height: auto; 
+    max-width: 2000px;
+    margin-left:auto;
+    margin-right:auto;
+    } 
+
+.container
+    { 
+    width: 20%;
+    background-color:#F6F6F6;
+    height: 200px;
+    float: left;
+    position: fixed;
+    max-width: 2000px;
+    margin-left:auto;
+    margin-right:auto;
+    top: 30%;
     }
-    .topnav input[type=text] {
-      border: 1px solid #ccc;
+
+    .slider {
+        width: 80%; 
+        height: 20px;
+        float: right; 
+        position: relative;
+        background-color: #8A0002;
+        /* opacity: .2; */
+        max-width: 2000px;
+        margin-left:auto;
+        margin-right:auto;
+        }
+  * {
+    box-sizing: border-box;
     }
-  }
+    
+    .openBtn {
+    background-color: dodgerblue;
+    border: 2px solid-black;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 40px;
+    position: absolute;
+    top: 86%;
+    left: 7%;
+    cursor: pointer;
+    }
+    
+    .openBtn:hover {
+    background: green;
+    }
+    
+    .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .overlay-content {
+    position: relative;
+    top: 50%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    }
+    
+    .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 80px;
+    cursor: pointer;
+    color: white;
+    }
+    
+    .overlay .closebtn:hover {
+    color: blue;
+    }
+    
+    .overlay input[type="text"] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+    }
+    
+    .overlay input[type="text"]:hover {
+    background: #f1f1f1;
+    }
+    
+    .overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: dodger-blue;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .overlay button:hover {
+    background: #bbb;
+    }
+    
+  
