@@ -9,6 +9,8 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"> -->
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="product.js"></script>
 
 </head>
 <body class="container-fluid">
@@ -16,9 +18,9 @@
         <div class="topps ">
             <div class="text-center">
                 <h1>Welcome to BAKER-S-INN <br> PRODUCTS</h1>
-                <p>Like freshly baked magic we truly believe that baking is like magic. <br> 
+                <p>Like freshly baked magic we truly believe that baking is like magic. <br>
                     We love how happy our clients are with just the appetizing smell that leaves them salivating and their mouths waterly <br>
-                    And of course for us, working with dough, seeing it grows on the oven and making people a 
+                    And of course for us, working with dough, seeing it grows on the oven and making people a
                     little bit happier is like living in an authentic magical charm.
                 </p>
                 <p>This is the only page where one get's to view the special products we got for our customers</p>
@@ -33,8 +35,8 @@
                     <div class="images">
                         <img src="images/wedding/wedding2.jpeg" style="width: 10cm;">
                         <div class="flax">
-                          <h5>Rose flavoured <br><span>Ksh.77000</span></h5>
-                          <button type="submit" class="btn btn-orange proceed">Add to cart</button>
+                          <h5 id="1">Rose flavoured <br><span>Ksh.77000</span></h5>
+                          <button type="submit" class="btn btn-orange proceed1">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -42,8 +44,10 @@
                     <div class="images">
                         <img src="images/cakess/index.jpeg" style="width: 11cm;">
                         <div class="flax">
-                          <h5>Hibiscus flavoured <br><span>Ksh.67500</span></h5>
-                          <button type="submit" class="btn btn-orange proceed">Add to cart</button>
+
+
+                          <h5 id="2">Hibiscus flavoured <br><span>Ksh.67500</span></h5>
+                          <button type="submit" class="btn btn-orange proceed2">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -51,8 +55,8 @@
                     <div class="images">
                         <img src="images/IMAGESSS/wedding cakes/wed3.avif" style="width: 10cm;">
                         <div class="flax">
-                          <h5>Anemone flavoured <br><span>Ksh.82000</span></h5>
-                          <button type="submit" class="btn btn-orange proceed">Add to cart</button>
+                          <h5 id="3">Anemone flavoured <br><span>Ksh.82000</span></h5>
+                          <button type="submit" class="btn btn-orange proceed3">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -62,8 +66,8 @@
                     <div class="images">
                         <img src="images/IMAGESSS/wedding cakes/wed2.avif" style="width: 10cm;">
                         <div class="flax">
-                          <h5>Hydrangea flavoured <br><span>Ksh.56000 </span></h5>
-                          <button type="submit" class="btn btn-orange proceed">Add to cart</button>
+                          <h5 id="4">Hydrangea flavoured <br><span>Ksh.56000 </span></h5>
+                          <button type="submit" class="btn btn-orange proceed4">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -152,9 +156,10 @@
             </div>
         </div>
     </div>
-    <br>  
+
+    <br>
     <div class="desert text-center">
-        <h2>DESERT</h2>  
+        <h2>DESERT</h2>
         <div class="row">
             <div class="actively d-flex justify-content-evenly">
                 <div class="col-md-4">
@@ -193,7 +198,7 @@
                           <h5>Sorted muffins <br><span>Ksh.120</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>            
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -214,7 +219,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
     <br>
     <div class="pastry text-center">
@@ -228,7 +233,7 @@
                           <h5>Meat-pie<br><span>Ksh.160</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -237,7 +242,7 @@
                           <h5>Cinnamon-roll <br><span>Ksh.130</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -246,7 +251,7 @@
                           <h5>Biale <br><span>Ksh.100</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
             <div class="actively d-flex justify-content-evenly">
@@ -257,7 +262,7 @@
                           <h5>Croissant<br><span>Ksh.120</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -266,7 +271,7 @@
                           <h5>Shortcrust Pastry<br><span>Ksh.250</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -275,7 +280,7 @@
                           <h5>Dabby-doughs<br><span>Ksh.120</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -292,7 +297,7 @@
                           <h5>Banana bread<br><span>Ksh.80</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -300,7 +305,7 @@
                         <div class="flax">
                           <h5>white bread<br><span>Ksh.70</span></h5>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -309,7 +314,7 @@
                           <h5>Brown bread<br><span>Ksh.90</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
             <div class="actively d-flex justify-content-evenly">
@@ -320,7 +325,7 @@
                           <h5>cream roll<br><span>Ksh.60</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -329,7 +334,7 @@
                           <h5>Irish-soda bread <br><span>Ksh.120</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="images">
@@ -338,7 +343,7 @@
                           <h5>sourdough <br><span>Ksh.160</span></h5>
                           <button type="submit" class="btn order">Add to cart</button>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </div>
         </div>
