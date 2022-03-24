@@ -4,6 +4,7 @@ function Cake(type,name,price,number){
     this.cakeName = name;
     this.cakePrice = price;
     this.cakeNumber = number;
+}
 $(".detaills").hide();
 
 //user interface logic
@@ -14,4 +15,4 @@ $(document).ready(function(){
 
 
 
-});
+})
