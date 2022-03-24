@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAKER'S INN</title>
+    <link rel="stylesheet" href="/landing/landing.css">
+    <link rel="stylesheet" href="/landing/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+    <div class="topnav">
+
+        
+       <a class="active"href="#landing.html">HOME</a>
+        <a href="#about.html">ABOUT US</a>
+       <a href="#product.html">PRODUCT</a>
+       <a href="#contact.html">CONTACT</a>
+       
+      </div>
+      <!-- <div id="bg-img"> -->
+        <!-- <div class="container">
+          <div class="row">
+            <div class="col">
+              
+          <h1 class="head">BAKER'S INN</h1><br>
+          <h5 class="motto">
+            We're not just a bakery. We're your new best friend.
+          </h5>
+        </div>
+      </div>
+              </div> -->
+              <div class="wrapper clearfix">
+                
+                <div class="container">
+                  <img src="/assets/logo.png" alt="">
+                </div>
+                <div class="slider">
+                  <div id="bg-img"></div>
+                </div>
+                </div>
+          <div id="myOverlay" class="overlay">
+            <span class="closebtn" 
+                  onclick="closeSearch()"
+                  title="Close Overlay">
+                  
+            </span>
+            <div class="overlay-content">
+              <form action="/action_page.php">
+                <input type="text" 
+                       placeholder="Search.." 
+                       name="search" />
+                <button type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          
+          <button class="openBtn" 
+                  onclick="openSearch()">
+                  Search
+          </button>
+       
+      </div>
+  
+
+<script src="/landing/js/jquery-3.6.0.js"></script>
+<script src="/landing/landing.js"></script>
+</body>
+</html>
