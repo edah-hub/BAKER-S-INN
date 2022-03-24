@@ -9,19 +9,22 @@
 .wedding{
     height: 100vh;
 }
+.actively{
+    padding-top: 1cm;
+}
 .birthday{
     height: 100vh;
-    padding-top: 10cm;
+    padding-top: 14cm;
 }
 .desert{
     height: 100vh;
-    padding-top: 16cm;
+    padding-top: 25cm;
 }
 .pastry{
     height: 100vh;
-    padding-top: 16cm;
+    padding-top: 29cm;
 }
 .bread{
     height: 100vh;
-    padding-top: 16cm;
+    padding-top: 30cm;
 }
