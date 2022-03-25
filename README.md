@@ -65,11 +65,11 @@ Click to view License [Click to view license](LICENSE)
 
 [Go Back to the top](#Baker's inn)
 
-
+<!-- 
 ## Designs
 Click to view designs :
 https://www.figma.com/file/1e48zIYqiXFtxS2nAmC2G6/File-2?node-id=0%3A1
-https://www.figma.com/file/UXuJseYwkaf7MkuHfuhKnZ/Library-Management-System-team-library?node-id=433%3A24
+https://www.figma.com/file/UXuJseYwkaf7MkuHfuhKnZ/Library-Management-System-team-library?node-id=433%3A24 -->
 ## Authors Info
 Slack name- Chepngetich Edah.
 
