@@ -1,5 +1,5 @@
 .about{
-    background-image: url(images/bakery.jpg);
+    /* background-image: url(images/bakery.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,95 +7,13 @@
     position: relative;
     text-align: center;
     font-size: 120%;
-    color: rgba(250, 243, 240, 0.993);
+    /* color: rgba(250, 243, 240, 0.993); */
 }
 .tittle{
-    color: rgb(226, 232, 241);
+    color: rgb(175, 46, 192);
     font-size: 120%;
 }
-.othecontent{
-    border-image-width: 20%;
-}
-#emoji{
-   border-radius: 20%;
-   height: 40%; 
-   width: 40%;
-}
-#staff{
-    /* background-image: url(images/101.jpg); */
-    background-color: blueviolet;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 90vh;
-    position: relative;
-    text-align: center;
-    /* padding-bottom: 40, 0%, 20, 50%; */
-    font-size: 170%;
-    color: rgb(239, 238, 245);
-}
-.market{
-    background-image: url(images/200.jpg); 
-    background-repeat: no-repeat;
-    background-position: relative;
-    background-size: cover;
-    height: 90vh;
-    position: right 30%;
-    text-align: center;
-    font-size: 170%;
-    color: rgb(204, 37, 154); 
-    /* padding-bottom: 100%, 50,50; */
-}
-.offer{
-    color: rgb(255, 254, 254); 
-    font-size: 170%;
-    /* background-image: url(images/101.jpg); */
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-color: blueviolet;
-}
-.policy{
-    font-size: 100%;
-    /* background-color: rgb(212, 161, 19); */
-}
-.grid-item{
-    /* height: 10vh; */
-    width: auto;
-    border-radius: 15%;
-    
-}
-.othercontent{
-    font-size: 150%;
-    /* background-color: rgb(212, 161, 19); */
-    /* background-image: url(images/101.jpg);  */
-    background-repeat: no-repeat;
-    background-position-x: center;
-    color: rgb(75, 78, 78);
-}
-.table{
 
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #9b9e9785;
-    padding: 8px;
-}
-/* .grid-container{
-
-} */
-.grid-item{
-    height: 10vh;
-}
-.click-button{
-    background-color: rgb(236, 12, 27);
-    height: 5vh;
-    width: 10vh;
-}
-topnav{
-    text-align: right;
-    padding: 14px 16px;
-    margin-right: 40px;
-    background-color: rgb(187, 179, 179)
-}
 .topnav a:hover {
     background-color: black;
     color: aqua;
@@ -129,4 +47,34 @@ topnav{
       .topnav a.active {
         background-color: #04AA6D;
         color: white;
+      }
+      .title{
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+          font-style: italic;
+          color: rgb(247, 139, 8);
+      }
+      .heritage{
+     background-image: url(images/8.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 50v;
+    position: relative;
+    text-align: center;
+    font-size: 120%;
+
+      }
+      .main
+      {
+        background-image: url(images/20.jpeg);
+        background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 270vh;
+    width: 50v;
+    position: relative;
+    text-align: center;
+    font-size: 120%;
       }
