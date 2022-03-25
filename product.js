@@ -6,7 +6,6 @@ function Cake(type,name,price,number){
     this.cakeNumber = number;
 }
 $(".detaills").hide();
-<<<<<<< HEAD
 //user interface logic
 $(document).ready(function(){
     $(".proceed1").click(function(event){
@@ -43,13 +42,6 @@ $(document).ready(function(){
     });
 })
 
-
-
-
-
-
-
-=======
 var grandTotal = 0;
 
 //user interface logic
@@ -455,4 +447,4 @@ $(document).ready(function(){
         $(".cart").hide();
     })
 });
->>>>>>> bf30d940e7df4e653f4a2b10210e4484c63bda39
+
