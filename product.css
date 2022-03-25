@@ -4,7 +4,6 @@
     background-position: center;
     background-size: cover;
     background-color: 0 0 0 2.5;
-  
 }
 #bg-img{
     background-image: url("/bak.webp");
@@ -57,4 +56,23 @@
 .bread{
     height: 100vh;
     padding-top: 30cm;
+}
+input{
+    width: 10%; ;
+}
+.rm{
+    display: none;
+}
+.carti{
+    color: brown;
+    cursor: pointer;
+}
+.carti:hover{
+    text-decoration: underline;
+}
+.cart{
+    display: none;
+}
+#carrt{
+    cursor: pointer;
 }
